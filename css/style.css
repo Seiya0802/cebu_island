@@ -24,7 +24,7 @@ header {
     font-weight: none;
 }
 .main-visual {
-    background-image: url(./cebu-sky.JPG);
+    background-image: url(../cebu-sky.JPG);
     background-size: cover;
     background-position: 40% 46%;
     height: 58vh;
