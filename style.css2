@@ -1,0 +1,209 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    height: 40px;
+    background-color: rgb(22, 22, 63);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 30px;
+}
+@media screen and (max-width:780px) {
+    
+}
+.header-logo {
+    height: 40px;
+}
+.page-title {
+    font-size: 30px;
+    color: white;
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: none;
+}
+.main-visual {
+    background-image: url(./cebu-sky.JPG);
+    background-size: cover;
+    background-position: 40% 46%;
+    height: 58vh;
+}
+section {
+    margin-top: 50px;
+    text-align: center;
+}
+h1 {
+    font-family:'Times New Roman', Times, serif;
+}
+.intro p {
+    margin-top: 55px;
+}
+.writer {
+    background-color: rgb(238, 237, 237);
+    padding: 20px 0;
+}
+.detail-left img {
+    height: 280px;
+    border-radius: 50%;
+}
+.writer-detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+@media screen and (max-width:780px) {
+    .writer-detail {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+}
+.detail-right {
+    /* background-color: blue; */
+    margin-left: 100px;
+    
+}
+@media screen and (max-width:780px) {
+    .detail-right {
+        margin: auto;
+    }
+    
+}
+.detail-right h2 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+.detail-description {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+
+}
+.description-right {
+    margin-left: 20px;
+}
+.description-left, .description-right {
+    font-size: 20px;
+    text-align: left;
+
+}
+.recs-wrap {
+    width: 100%;
+
+
+}
+.class-title {
+    margin-bottom: 40px;
+}
+.recs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+@media screen and (max-width:780px) {
+    .recs {
+        flex-direction: column;
+        width: 90%;
+    }   
+}
+.rec-image {
+    width: 100%;
+    height:30vh;
+}
+.rec {
+    width: 30%;
+    height: 480px;
+    text-align: left;
+}
+@media screen and (max-width:780px) {
+    .rec {
+        width: 100%;
+        height: auto;
+    }
+.rec-description {
+    height: 300px;
+    display: inline-block;
+}    
+}
+.rec-bottom {
+    text-align: left;
+    height: 274px;
+}
+@media screen and (max-width: 780px) {
+    .rec-bottom {
+        height: auto;
+    }
+}
+.rec-title {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.rec-description {
+    height: 140px;
+}
+@media screen and (max-width:780px) {
+    .rec-description {
+        height: 50px;
+    }
+    
+}
+.btn-wrap {
+    text-align: right;
+}
+button {
+    font-size: 18px;
+    padding: 13px;
+    color: white;
+    background-color: rgb(22, 22, 63);
+    border-radius: 5px;
+    box-shadow: rgb(197, 190, 190)  0 5px;
+}
+@media screen and (max-width:780px) {
+    button {
+        margin-bottom: 40px;
+        
+    }
+    
+}
+button:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+button:active {
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+}
+.rec-title, .rec-description {
+    margin-top: 15px;
+}
+.contact-description {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.contact-btn {
+    padding: 20px 50px;
+}
+.contact-wrap {
+    margin-bottom: 70px;
+}
+footer {
+    background-color: black;
+    height: 40px;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+h3 {
+    color: white;
+    font-size: 15px;
+}
